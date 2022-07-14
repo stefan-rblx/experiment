@@ -145,7 +145,7 @@ function CFAHub:CreateWindow(title, gameName, intro)
         Header = Color3.fromRGB(22, 22, 22),
         Container = Color3.fromRGB(34, 34, 34),
         Background = Color3.fromRGB(22, 22, 22),
-        Slider = Color3.fromRGB(15, 15, 15),
+        Slider = Color3.fromRGB(79, 195, 247),
         Drop = Color3.fromRGB(28, 28, 28),
         ScrollBar = Color3.fromRGB(149, 149, 149),
         NotiBackground = Color3.fromRGB(0, 0, 0),
@@ -2097,7 +2097,7 @@ function CFAHub:CreateWindow(title, gameName, intro)
                 coroutine.wrap(function()
                     while wait() do
                         ColorPicker.BackgroundColor3 = themes.Drop
-                        ColorButton.BackgroundColor3 = themes.Background
+                        ColorButton.BackgroundColor3 = Color3.new(79, 195, 247)
                         ColorText.TextColor3 = themes.TextColor
                         R.BackgroundColor3 = themes.Background
                         TextBox.TextColor3 = themes.TextColor
