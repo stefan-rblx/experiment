@@ -730,7 +730,7 @@ function CFAHub:CreateWindow(title, gameName, intro)
         Objects[slice] = "SchemaColor"
         slice.BackgroundTransparency = 1
         slice.Position = UDim2.new(0.5, 0, 1, 0)
-        slice.Size = UDim2.new(0, 20, 0, 4)
+        slice.Size = UDim2.new(0, 85, 0, 4)
     
         sliceCorner.CornerRadius = UDim.new(0, 4)
         sliceCorner.Name = "sliceCorner"
