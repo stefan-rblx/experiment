@@ -1682,8 +1682,8 @@ function CFAHub:CreateWindow(title, gameName, intro)
                 KeyCode.Parent = BindButton
                 KeyCode.BackgroundColor3 = themes.Container
                 Objects[KeyCode] = "Container"
-                KeyCode.Position = UDim2.new(0.643181801, 0, 0.14705883, 0)
-                KeyCode.Size = UDim2.new(0, 148, 0, 24)
+                KeyCode.Position = UDim2.new(0, 355, 0, 5)
+                KeyCode.Size = UDim2.new(0, 80, 0, 24)
                 KeyCode.ZIndex = 2
                 
                 KeyCorner.CornerRadius = UDim.new(0, 4)
